@@ -8,9 +8,9 @@
 <body>
     <table class="table" width= 600px; height= 600px>
     <?php 
-    for ($row = 1; $row <= 8; $row ++) {
+    for ($row = 1; $row <= 8; $row++) {
         echo "<tr>";
-        for ($col = 1; $col <= 8; $col ++) {
+        for ($col = 1; $col <= 8; $col++) {
             $total = $row + $col;
             if ($total % 2 == 0) {
                 echo "<td height=40px width=40px bgcolor=#0000></td>";
